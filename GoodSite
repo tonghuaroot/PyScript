@@ -1,0 +1,11 @@
+# ICP 备案查询网
+http://www.beianbeian.com/
+
+# Whois 查询
+http://whois.chinaz.com
+
+# Whois 邮箱反查
+http://whois.chinaz.com/reverse
+
+# 通过在线证书查询的方式获取二级域名（原理是扫描全网证书信息，提供了在线查询接口，所以具有时效性，但应该足够用）
+https://www.censys.io/certificates
