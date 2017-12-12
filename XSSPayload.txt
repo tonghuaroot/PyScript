@@ -3,3 +3,5 @@
 javascript:alert(1)
 # 场景：<a href="javascript:alert(1)">click</a>
 # 说明：a标签的href属性可控时，该位置可能产生XSS
+
+&#x003c;img src=1 onerror=alert(1)&#x003e; # 就是<img src=1 onerror=alert(1)>
