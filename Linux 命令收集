@@ -2,3 +2,6 @@
 >>> import flask
 >>> flask.__version__
 '0.12.2'
+
+# Ubuntu 启动终端
+CTRL + ALT + T
