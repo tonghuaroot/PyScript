@@ -5,3 +5,6 @@
 
 # Ubuntu 启动终端
 CTRL + ALT + T
+
+# 查看 Linux 发行版本信息
+cat /etc/issue
