@@ -6,3 +6,5 @@ Ctrl + b 向后翻1页
 Ctrl + f 向前翻1页
 
 :set number # 显示行号
+
+dd 删除1行
